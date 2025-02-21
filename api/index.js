@@ -9,7 +9,7 @@ app.use(cors());
 
 app.use(
   cors({
-    origin: "https://frontend-bajaj-beta.vercel.app", // Replace with your allowed domain
+    origin: "https://bajaj-frontend-gamma-lilac.vercel.app", // Replace with your allowed domain
   })
 );
 
