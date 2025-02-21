@@ -53,9 +53,9 @@ app.post("/bfhl", (req, res) => {
 
     res.status(200).json({
       is_success: true,
-      user_id: "john_doe_17091999",
-      email: "john@xyz.com",
-      roll_number: "ABCD123",
+      user_id: USER_ID,
+      email: EMAIL,
+      roll_number: ROLL_NUMBER,
       numbers,
       alphabets,
       highest_alphabet: highestAlphabet,
